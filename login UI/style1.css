@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+.primary{
+    height:100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(BG.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+.fbox{
+    height:470px;
+    width: 850px;
+    position: relative;
+    margin:6% auto;
+    background:#fff;
+    padding:5px;
+    overflow: hidden;  
+}
+.bbox
+{
+    width: 70%;
+    margin:35px auto;
+    position: relative; 
+    box-shadow: 0 0 20px 9px #0430442f ;
+    border-radius: 30px;
+}
+.tbtn{
+    padding: 10px 33px;
+    cursor: pointer;
+    background:transparent;
+    border:0;
+    outline: none;
+    font-size: 18px;
+    position:  relative;
+    margin: 0 5px;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 59%;
+    height: 100%;
+    background:linear-gradient(to left,rgb(129, 248, 32),rgba(78, 247, 101, 0.959));
+    border-radius: 30px;
+    transition: .5s; 
+
+}
+.social{
+    margin :30px auto;
+    text-align: center;
+}
+.social img{
+    width: 30px;
+    margin:0 10px;
+    box-shadow: 0 0 20px 0 #0430442f;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.input{
+    top:40%;
+    width:72%;
+    position: absolute;
+    transition: .5s;
+    
+}
+.ibox{
+    width:100%;
+    padding: 10px 0;
+    margin: 5px 10px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(197, 241, 208);
+    outline: none;
+    background: transparent;
+    
+}
+
+.sub-btn{
+    width:65%;
+    padding :10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to left,rgb(129, 248, 32),rgba(78, 247, 101, 0.959));
+    border:0;
+    outline: none;
+    border-radius: 30px;
+}
+.cbox{
+margin: 30PX 10PX 30PX 0;
+
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}

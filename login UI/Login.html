@@ -1,0 +1,57 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="primary">
+        <div class="fbox">
+           <div class="bbox">
+               <div id="btn"></div>
+           <button type="button" class="tbtn" onclick="login()">Login</button>
+           <button type="button" class="tbtn" onclick="regi()">Sign Up</button>
+        </div> 
+        
+        <div class="social">
+            <img src="Fb.png">
+            <img src="G.png">
+            <img src="discord.png">
+
+        </div>
+    
+    <form id="login" action ="validation.php" method="post" class="input">
+        
+        <input type="text" class="ibox" placeholder="User Name" required>
+        <input type="password" class="ibox" placeholder="Password" required>
+        <input type="checkbox" class="cbox">
+        <span>Remember Password</span>
+        <button type="submit" class="sub-btn">Log In</button>
+    </form>
+    <form id="regi"  class="input" action="registration.php" method="post">
+        
+        <input type="text" name="user" class="ibox" placeholder="User Name" required>
+        <input type="email" name="email" class="ibox" placeholder="Email ID" required>
+        <input type="password" name="password" class="ibox" placeholder="Password" required>
+        <input type="checkbox" class="cbox">
+        <span>I agree to T&C</span>
+        <button type="submit" class="sub-btn">Sign Up</button>
+    </form>
+ </div>
+ </div>
+ <script>
+     var x=document.getElementById("login");
+     var y=document.getElementById("regi");
+     var z=document.getElementById("btn");
+     function regi(){
+         x.style.left="-103%";
+         y.style.left="12%";
+         z.style.left="110px";
+     }
+     function login(){
+         x.style.left="12%";
+         y.style.left="115%";
+         z.style.left="0px";
+     }
+ </script>
+</body>
+</html> 
